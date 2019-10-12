@@ -1,0 +1,37 @@
+import model TopCqq
+generate t > b u d~ QED = 2 NP^2==4
+output TOPEFT_Project/decay/mg5_events/top/topdecay_Cqq_sq
+set automatic_html_opening False
+launch
+0
+set MT 172.5
+set mz 91.18760
+set md 0.
+set mu 0.
+set mc 0.
+set mb 0.
+set aEWM1 132.507
+set Gf 1.166370e-05
+set aS 0.1184
+set wt Auto
+set ww 2.085000
+set nevents 10000
+set ebeam1 6500.
+set ebeam2 6500.
+set bwcutoff 10000.
+set C3qq3311 2.0
+set ptj 0.
+set ptb 0.
+set ptl 0.
+set misset 0.
+set etaj -1.
+set etab -1.
+set etal -1.
+set drjj 0.
+set drbb 0.
+set drll 0.
+set drbj 0.
+set drjl 0.
+set drbl 0.
+set pdlabel cteq6l1
+done

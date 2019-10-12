@@ -1,0 +1,23 @@
+import model TopCtW
+generate t > b w+ QED = 2 NP^2==4
+output TOPEFT_Project/decay/mg5_events/top/topdecay_CtW_sq
+set automatic_html_opening False
+launch
+0
+set MT 172.5
+set mz 91.18760
+set md 0.
+set mu 0.
+set mc 0.
+set mb 0.
+set aEWM1 132.507
+set Gf 1.166370e-05
+set aS 0.1184
+set ww 2.085000
+set nevents 10000
+set ebeam1 6500.
+set ebeam2 6500.
+set bwcutoff 10000.
+set rctw 1.0
+set ictw 0.0
+done
