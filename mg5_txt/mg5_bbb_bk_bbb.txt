@@ -1,0 +1,20 @@
+import model Sextet_Diquarks_UFO
+define B = b b~ 
+generate p p > B B B NP==2
+output bbb/background/bbb
+set automatic_html_opening False
+launch
+0
+set nevents 1000000
+set ebeam1 6500.
+set ebeam2 6500.
+set dynamical_scale_choice 2
+set ptj 30.
+set ptb 30.
+set etaj 3.5.
+set etab 3.5.
+set drjj 0.7.
+set drbb 0.7.
+set drbj 0.7.
+set pdlabel cteq6l1
+done
