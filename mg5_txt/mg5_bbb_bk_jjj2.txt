@@ -1,8 +1,4 @@
-import model Sextet_Diquarks_UFO
-generate p p > j j j NP==0
-output bbb/background/jjj
-set automatic_html_opening False
-launch -i
+launch bbb/background/jjj -i
 multi_run 10
 1
 2

@@ -1,0 +1,4 @@
+import model Sextet_Diquarks_UFO
+generate p p > j j j NP==0
+output bbb/background/jjj
+exit
