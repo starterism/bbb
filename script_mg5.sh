@@ -10,7 +10,7 @@ cd $mg5path
 ./mg5_aMC mg5_bbb_bk_bbj1.txt
 rm -f $mg5path/mg5_bbb_bk_bbj1.txt
 
-/cp -rf $toolpath/run_delphes3 $mg5path/bbb/background/bbj/bin/internal
+\cp -rf $toolpath/run_delphes3 $mg5path/bbb/background/bbj/bin/internal
 cd $mg5path
 ./mg5_aMC mg5_bbb_bk_bbj2.txt
 rm -f $mg5path/mg5_bbb_bk_bbj2.txt
