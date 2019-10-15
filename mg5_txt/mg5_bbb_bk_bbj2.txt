@@ -1,9 +1,4 @@
-import model Sextet_Diquarks_UFO
-generate p p > b b b~ NP==0
-add process p p > b b~ b~ NP==0
-output bbb/background/bbb
-set automatic_html_opening False
-launch -i
+launch bbb/background/bbj -i
 multi_run 10
 1
 2
@@ -20,4 +15,5 @@ set dynamical_scale_choice 2
 #set drbb 0.7
 #set drbj 0.7
 set pdlabel cteq6l1
+set automatic_html_opening False
 done
