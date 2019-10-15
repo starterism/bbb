@@ -1,0 +1,21 @@
+launch bbb/signal/600 -i
+multi_run 10
+1
+2
+0
+set MSIX2 600
+set WSIX2 Auto
+set nevents 10000
+set ebeam1 6500
+set ebeam2 6500
+set dynamical_scale_choice 2
+#set ptj 30
+#set ptb 30
+#set etaj 3.5
+#set etab 3.5
+#set drjj 0.7
+#set drbb 0.7
+#set drbj 0.7
+set pdlabel cteq6l1
+set automatic_html_opening False
+done
