@@ -5,7 +5,7 @@ txtpath=~/bbb/mg5_txt
 toolpath=~/bbb
 outputpath=~/MG5_aMC_v2_6_6/bin/bbb/signal
 
-for MSIX2 in 200 400 600 800 1000
+for MSIX2 in 200 #400 600 800 1000
 
 do
 
