@@ -11,10 +11,8 @@ do
 		do
 			${i} = 0
 			while [[ ${i} -le 9 ]]; do
-				real_from = ${frompath}/${b_s}/${final_state}/Events/run_01_${i}
-				real_to = ${topath}/${b_s}/${final_state}
-				\cp ${real_from}/tag_1_delphes_events.lhco.gz ${real_to}/${i}.lhco.gz
-				${i}++
+				\cp ${frompath}/${b_s}/${final_state}/Events/run_01_${i}/tag_1_delphes_events.lhco.gz ${topath}/${b_s}/${final_state}/${i}.lhco.gz
+				((${i}++))
 			done
 		done	
 	else
@@ -22,10 +20,8 @@ do
 		do
 			${i} = 0
 			while [[ ${i} -le 9 ]]; do
-				real_from = ${frompath}/${b_s}/${final_state}/Events/run_01_${i}
-				real_to = ${topath}/${b_s}/${final_state}
-				\cp ${real_from}/tag_1_delphes_events.lhco.gz ${real_to}/${i}.lhco.gz
-				${i}++
+				\cp ${frompath}/${b_s}/${final_state}/Events/run_01_${i}/tag_1_delphes_events.lhco.gz ${topath}/${b_s}/${final_state}/${i}.lhco.gz
+				((${i}++))
 			done
 		done	
 	fi	
